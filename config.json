@@ -2,5 +2,6 @@
   "active_schedule_id": "1MRxGJny2NuCdZGMYh2c2VbygGVu_XkAo0RoR5xNDYH0",
   "schedule_version": "2026-Summer",
   "updated_at": "2026-06-25",
-  "force_reload": false
+  "force_reload": false,
+  "min_app_version": "1.0.0"
 }

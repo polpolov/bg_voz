@@ -1,7 +1,38 @@
 {
-  "active_schedule_id": "1MRxGJny2NuCdZGMYh2c2VbygGVu_XkAo0RoR5xNDYH0",
   "schedule_version": "2026-Summer",
-  "updated_at": "2026-06-25",
+  "updated_at": "2026-06-28",
   "force_reload": false,
-  "min_app_version": "1.0.0"
+  "min_app_version": "1.0.0",
+  "schedules": [
+    {
+      "id": "batajnica_ovca",
+      "title": "Batajnica - Ovča",
+      "source_id": "1MRxGJny2NuCdZGMYh2c2VbygGVu_XkAo0RoR5xNDYH0",
+      "timetables": [
+        {
+          "sheet_name": "Timetable_Batajnica-Ovca",
+          "direction_group": "batajnica_ovca"
+        },
+        {
+          "sheet_name": "Timetable_Ovca-Batajnica",
+          "direction_group": "ovca_batajnica"
+        }
+      ]
+    },
+    {
+      "id": "lazarevac_resnik_ovca",
+      "title": "Lazarevac - Resnik - Ovča",
+      "source_id": "PUT_NEW_GOOGLE_SHEET_ID_HERE",
+      "timetables": [
+        {
+          "sheet_name": "Timetable_Lazarevac-Ovca",
+          "direction_group": "lazarevac_ovca"
+        },
+        {
+          "sheet_name": "Timetable_Ovca-Lazarevac",
+          "direction_group": "ovca_lazarevac"
+        }
+      ]
+    }
+  ]
 }

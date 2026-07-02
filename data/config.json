@@ -1,87 +1,12 @@
 {
+  "schema_version": 2,
   "active": true,
-  "schedule_version": "2026-Summer",
-  "updated_at": "2026-06-28",
+  "schedule_version": "2026-Year+2026-Summer",
+  "updated_at": "2026-07-02",
   "force_reload": false,
-  "min_app_version": "1.0.0",
-  "schedules": [
-    {
-      "id": "batajnica_ovca",
-      "name": "Batajnica-Ovča",
-      "type": "bg_voz",
-      "enabled": true,
-      "valid_from": "2026-04-07",
-      "valid_to": "2026-12-12",
-      "source_id": "1MRxGJny2NuCdZGMYh2c2VbygGVu_XkAo0RoR5xNDYH0",
-      "sheets": {
-        "stations": {
-          "sheet_gid": 2104201683
-        },
-        "metadata": {
-          "sheet_gid": 591365971
-        },
-        "config": {
-          "sheet_gid": 785960838
-        },
-        "train_rules": {
-          "sheet_gid": 1005730771,
-          "optional": true
-        },
-        "holidays": {
-          "sheet_gid": 1872327977,
-          "optional": true
-        },
-        "timetables": [
-          {
-            "key": "batajnica_ovca",
-            "sheet_gid": 0
-          },
-          {
-            "key": "ovca_batajnica",
-            "sheet_gid": 1830787019
-          }
-        ]
-      },
-      "bundleUrl": "https://raw.githubusercontent.com/polpolov/bg_voz/main/bundles/batajnica_ovca.json"
-    },
-    {
-      "id": "lazarevac_resnik_ovca",
-      "name": "Lazarevac-Resnik-Ovča",
-      "type": "bg_voz",
-      "enabled": true,
-      "valid_from": "2026-02-18",
-      "valid_to": "2026-12-12",
-      "source_id": "1jMijOBsI2ZCJVtSNK8-ac9T8umT5HGpO",
-      "sheets": {
-        "stations": {
-          "sheet_gid": 1935234640
-        },
-        "metadata": {
-          "sheet_gid": 389103058
-        },
-        "config": {
-          "sheet_gid": 2029390954
-        },
-        "train_rules": {
-          "sheet_gid": 6719284,
-          "optional": true
-        },
-        "holidays": {
-          "sheet_gid": 952120691,
-          "optional": true
-        },
-        "timetables": [
-          {
-            "key": "lazarevac_resnik_ovca",
-            "sheet_gid": 1018897552
-          },
-          {
-            "key": "ovca_resnik_lazarevac",
-            "sheet_gid": 2110740116
-          }
-        ]
-      },
-      "bundleUrl": "https://raw.githubusercontent.com/polpolov/bg_voz/main/bundles/lazarevac_resnik_ovca.json"
-    }
-  ]
+  "min_app_version": "1.5.0",
+  "bundle": {
+    "id": "serbia_rail_2026",
+    "url": "https://raw.githubusercontent.com/polpolov/bg_voz/main/bundles/serbia_rail_2026.json"
+  }
 }
